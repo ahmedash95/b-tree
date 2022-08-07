@@ -59,3 +59,9 @@ tree.Find(12) // false
 
 ## Debug
 You can use `tree.Mermaid()` to print the mermaid syntax list of the tree. also you can use **Mermaid** `Create()` and `RenderAndDisplay()` to get a valid md file with valid mermaid syntax
+
+```go
+m := Mermaid{}
+m.Create(tree.Mermaid())
+m.RenderAndDisplay()
+```
