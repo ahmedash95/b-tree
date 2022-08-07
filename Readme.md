@@ -1,6 +1,6 @@
 # B+Tree
 
-a simple b+tree implementation in Go for leanring purpose
+a simple b+tree implementation in Go for learning purpose
 
 ```mermaid
 graph TD
